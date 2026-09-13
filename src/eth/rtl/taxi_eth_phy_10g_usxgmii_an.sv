@@ -77,7 +77,7 @@ state_t state_reg = STATE_START, state_next;
 
 // 1 pulse per 100 us for timers
 localparam CYC_PER_US = DATA_W == 64 ? 156 : 312;
-localparam PRESC_CYC = $rtoi(CYC_PER_US*100);
+localparam PRESC_CYC = (CYC_PER_US*100); // originally $rtoi(CYC_PER_US*100);
 
 logic [16:0] presc_cnt_reg = '0;
 logic presc_pulse_reg = 1'b0;
