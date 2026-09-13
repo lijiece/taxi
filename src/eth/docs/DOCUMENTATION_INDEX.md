@@ -17,6 +17,11 @@ This is the master index for all Ethernet signal path and interface documentatio
 ### Comparison & Summary
 5. **[Signal Path Documentation Summary](SIGNAL_PATH_DOCUMENTATION_SUMMARY.md)** - Cross-platform comparison
 
+### Build System (in repository root)
+6. **[Makefile Build System Analysis](../../../MAKEFILE_BUILD_SYSTEM_ANALYSIS.md)** - Complete build flow analysis
+7. **[Vivado Project Mode Explained](../../../VIVADO_PROJECT_MODE_EXPLAINED.md)** - Project vs Non-Project Mode
+8. **[Project Mode Quick Reference](../../../PROJECT_MODE_QUICK_REFERENCE.md)** - Quick reference card
+
 ---
 
 ## Document Descriptions
