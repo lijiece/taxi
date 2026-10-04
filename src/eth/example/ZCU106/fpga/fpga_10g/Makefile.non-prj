@@ -1,0 +1,8 @@
+include ../common/config.mk
+
+include files.mk
+
+include ../common/build.non-prj
+
+include ../common/program.non-prj
+
